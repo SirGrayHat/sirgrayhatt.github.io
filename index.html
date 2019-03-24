@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rock Paper Scissor Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1> Piedra Papel Tijeras </h1>
+	</header>
+
+	<div class="score-board">
+		<div id="user-label" class="badge">user</div>
+		<div id="computer-label" class="badge">comp</div>
+		<span id="user-score">0</span>:<span id="computer-score">0</span>
+	</div>
+
+	<div class="result">
+		<p> Papel cubre a piedra. ¡Ganaste! </p>
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="r">
+			<img src="images/rock.png" alt="" width="100px" height="130px">
+		</div>
+		<div class="choice" id="p">
+			<img src="images/paper.png" alt="" width="100px" height="130px">
+		</div>
+		<div class="choice" id="s">
+			<img src="images/scissor.png" alt="" width="100px" height="130px">
+		</div>
+		<div class="iconr">
+			<img src="images/robot.png" alt="" width="100px" height="140px">
+		</div>
+		<div class="iconh">
+			<img src="images/humano.png" alt="" width="100px" height="140px">
+		</div>
+	</div>
+
+
+	<p id="action-message">¡Haz tu jugada! Hecho por: Manuel Zapata</p>
+	<p id="dedicacion"> Para: Solo Leveling Guild </p>
+
+	<div class="wrapper">
+	<button type="button" class="btn btn-outline-dark">Acerca de mi</button>
+    </div>
+
+	<script  src="app.js" type="text/javascript"></script>
+</body>
+</html>
